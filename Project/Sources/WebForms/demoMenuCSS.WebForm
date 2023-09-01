@@ -1,0 +1,731 @@
+{
+	"metadata": {
+		"v": "1.0",
+		"datasources": [],
+		"styles": [
+			{
+				"name": "menu_button",
+				"content": "self {\n  text-align: center;\n  font-size: 16px;\n  transition: 0.2s;\n  border-right: 0.2rem solid;\n\tborder-color: transparent;\n  letter-spacing: 1px;\n\n}\n\nself:hover {\n  border-right: 0.2rem solid;\n\tborder-color: #7a7591;\n  letter-spacing: 2px;\n\n}",
+				"parentId": null,
+				"scope": "local",
+				"id": "6Hkl7Ry74uYP6FNjmZ5pG"
+			},
+			{
+				"name": "bold_button",
+				"content": "self {\n\n}",
+				"parentId": null,
+				"scope": "local",
+				"id": "YS-coLq1BBt0s7ZPzjaI5"
+			}
+		]
+	},
+	"components": {
+		"ROOT": {
+			"type": {
+				"resolvedName": "Container"
+			},
+			"isCanvas": true,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"className": "bg-white h-full w-full px-6",
+				"style": {
+					"display": "flex",
+					"backgroundColor": "#f1f1f1",
+					"gap": "20px",
+					"flexDirection": "column"
+				},
+				"airyMode": true
+			},
+			"displayName": "Webform",
+			"custom": {},
+			"parent": "",
+			"hidden": false,
+			"nodes": [
+				"ecZPmKHN5G",
+				"5P_CYxXhzS"
+			],
+			"linkedNodes": {}
+		},
+		"5P_CYxXhzS": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"display": "flex",
+					"flexDirection": "column",
+					"gap": "12px",
+					"width": "1000px",
+					"minWidth": "1000-"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"Rg-q8DpRdE",
+				"VuUhSCoM0p",
+				"hZATtnfPzE",
+				"t5ulawnZ8U"
+			],
+			"linkedNodes": {}
+		},
+		"Rg-q8DpRdE": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "ge7nds1Mzv8s3rpXwywrsa",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "",
+						"parent": "",
+						"target": "demoCSSMenu1"
+					}
+				],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "HOW DO I CREATE A  MENU USING CSS",
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": ""
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "1. "
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Create a new "
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "CSS class ",
+								"bold": true
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "from the properties panel"
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "5P_CYxXhzS",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"VuUhSCoM0p": {
+			"type": {
+				"resolvedName": "Image"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"style": {
+					"height": "auto",
+					"width": "300px"
+				},
+				"imgSrc": "/$shared/visuals/css_class_creation_dKYusTbEBkYABeF9XEbZTe.png"
+			},
+			"displayName": "Image",
+			"custom": {},
+			"parent": "5P_CYxXhzS",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"hZATtnfPzE": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "ge7nds1Mzv8s3rpXwywrsa",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "",
+						"parent": "",
+						"target": "demoCSSMenu1"
+					}
+				],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "2. "
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Then you can "
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "edit",
+								"bold": true
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": " your CSS class  from the"
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": " Contextual panel",
+								"bold": true
+							},
+							{
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": " and use it for any other Quodly component"
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": ""
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Here is the css class that is used In the example above :"
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "5P_CYxXhzS",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"t5ulawnZ8U": {
+			"type": {
+				"resolvedName": "Image"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"style": {
+					"height": "auto",
+					"width": "900px"
+				},
+				"imgSrc": "/$shared/visuals/css_class_edition_twWdwFQ4j7Qav4n51MDYkE.png"
+			},
+			"displayName": "Image",
+			"custom": {},
+			"parent": "5P_CYxXhzS",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"ecZPmKHN5G": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"height": "180px",
+					"width": "1000px",
+					"display": "flex",
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px",
+					"gap": "20px",
+					"minHeight": "180px",
+					"justifyContent": "flex-start",
+					"alignItems": "center",
+					"minWidth": "1000px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"a7oaokg3o_",
+				"NMlWfSv_vI"
+			],
+			"linkedNodes": {}
+		},
+		"a7oaokg3o_": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"paddingRight": "0px",
+					"width": "fit-content",
+					"backgroundColor": "#ffffffff",
+					"height": "fit-content",
+					"display": "flex",
+					"flexDirection": "column",
+					"alignItems": "start",
+					"justifyContent": "center",
+					"borderRadius": "12px",
+					"minHeight": "fit-content",
+					"marginTop": "0px",
+					"marginBottom": "0px",
+					"marginRight": "0px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ecZPmKHN5G",
+			"hidden": false,
+			"nodes": [
+				"Fz1hLvYEm6",
+				"jjrlwxbXL8",
+				"-itUdkOZgo",
+				"Cb2Hj6Fjc1"
+			],
+			"linkedNodes": {}
+		},
+		"Fz1hLvYEm6": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"justifyContent": "flex-start",
+					"alignItems": "center",
+					"gap": "10px",
+					"marginBottom": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"default_cursor"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "a7oaokg3o_",
+			"hidden": false,
+			"nodes": [
+				"ODhyHDBWTg",
+				"0q1uY3H9B4"
+			],
+			"linkedNodes": {}
+		},
+		"ODhyHDBWTg": {
+			"type": {
+				"resolvedName": "Icon"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"icon": "fa-rocket",
+				"style": {
+					"marginRight": "0px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Icon",
+			"custom": {},
+			"parent": "Fz1hLvYEm6",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"0q1uY3H9B4": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "MENU",
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"marginLeft": "0px",
+					"marginBottom": "0px",
+					"marginTop": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "Fz1hLvYEm6",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"jjrlwxbXL8": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "g1DaMJWXPua3m3hY45n7Jb",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "NMlWfSv_vI",
+						"parent": "webform-loader",
+						"target": "menuItemDashboard"
+					}
+				],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"alignItems": "center",
+					"gap": "10px",
+					"paddingRight": "12px",
+					"marginTop": "0px",
+					"marginBottom": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"pointer_cursor",
+					"menu_button"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "a7oaokg3o_",
+			"hidden": false,
+			"nodes": [
+				"XJjfRLeNrF"
+			],
+			"linkedNodes": {}
+		},
+		"XJjfRLeNrF": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "Dashboard",
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "14px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "jjrlwxbXL8",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"-itUdkOZgo": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "eyd864peuhLCbXj5UhboB5",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "NMlWfSv_vI",
+						"parent": "webform-loader",
+						"target": "menuItemUsers"
+					}
+				],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"alignItems": "center",
+					"gap": "10px",
+					"marginTop": "0px",
+					"marginBottom": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"pointer_cursor",
+					"menu_button"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "a7oaokg3o_",
+			"hidden": false,
+			"nodes": [
+				"TEE4a27Jwi"
+			],
+			"linkedNodes": {}
+		},
+		"TEE4a27Jwi": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "Users",
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "14px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "-itUdkOZgo",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"Cb2Hj6Fjc1": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "qG5vjpmigLse2JFCkJyZEz",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "NMlWfSv_vI",
+						"parent": "webform-loader",
+						"target": "menuItemHolidays"
+					}
+				],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"alignItems": "center",
+					"gap": "10px",
+					"marginTop": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"pointer_cursor",
+					"menu_button"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "a7oaokg3o_",
+			"hidden": false,
+			"nodes": [
+				"_K3SxZAQDh"
+			],
+			"linkedNodes": {}
+		},
+		"_K3SxZAQDh": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "Holidays",
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "14px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "Cb2Hj6Fjc1",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"NMlWfSv_vI": {
+			"type": {
+				"resolvedName": "WebformLoader"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"style": {
+					"height": "fit-content",
+					"minHeight": "fit-content",
+					"paddingLeft": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingTop": "0px",
+					"maxHeight": "fit-content",
+					"borderRadius": "12px"
+				},
+				"webform": "menuItemDashboard"
+			},
+			"displayName": "Webform Loader",
+			"custom": {},
+			"parent": "ecZPmKHN5G",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		}
+	}
+}

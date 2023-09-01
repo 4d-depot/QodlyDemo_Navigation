@@ -1,0 +1,26 @@
+{
+  "applicationName": "Qodly Demo navigation",
+  "description": "Simple demo showing navigation and CSS usage",
+  "details": "Learn how to create a menu bar with or without CSS, and how to bind navigation events",
+  "visuals": [
+    {
+      "description": "Navigation example",
+      "image": "/$shared/visuals/navigation.png"
+    },
+    {
+      "description": "Another Navigation example",
+      "image": "/$shared/visuals/navigationCSS.png"
+    }
+  ],
+  "logo": {
+    "small": "logo_small_path",
+    "large": "/$shared/logos/Q-2.svg"
+  },
+  "qodlyVersion": "all",
+  "author": {
+    "name": "Qodly",
+    "url": "https://www.qodly.com/"
+  },
+  "category": "Qodly starters",
+  "language": "English"
+}

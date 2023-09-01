@@ -1,0 +1,139 @@
+{
+	"metadata": {
+		"v": "1.0",
+		"datasources": [],
+		"styles": []
+	},
+	"components": {
+		"ROOT": {
+			"type": {
+				"resolvedName": "Container"
+			},
+			"isCanvas": true,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"className": "bg-white h-full w-full px-6",
+				"style": {
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px",
+					"backgroundColor": "transparent"
+				},
+				"airyMode": true
+			},
+			"displayName": "Webform",
+			"custom": {},
+			"parent": "",
+			"hidden": false,
+			"nodes": [
+				"Qmyx8dbaIC"
+			],
+			"linkedNodes": {}
+		},
+		"Qmyx8dbaIC": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"height": "200px",
+					"borderRadius": "12px",
+					"backgroundColor": "#ffffffff",
+					"display": "flex",
+					"justifyContent": "center",
+					"alignItems": "center",
+					"flexDirection": "column",
+					"gap": "20px",
+					"minHeight": "200px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"z9HPWD_BHf",
+				"Ro5-Hk_3br"
+			],
+			"linkedNodes": {}
+		},
+		"z9HPWD_BHf": {
+			"type": {
+				"resolvedName": "Icon"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"icon": "fa-area-chart",
+				"style": {
+					"fontSize": "40px",
+					"color": "#ffffffff",
+					"backgroundColor": "#7a7591",
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px",
+					"borderRadius": "50%",
+					"width": "80px",
+					"height": "80px",
+					"display": "flex",
+					"justifyContent": "center",
+					"alignItems": "center"
+				}
+			},
+			"displayName": "Icon",
+			"custom": {},
+			"parent": "Qmyx8dbaIC",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"Ro5-Hk_3br": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"style": {
+					"width": "100%",
+					"minWidth": "80%",
+					"textAlign": "center",
+					"display": "flex",
+					"alignItems": "center",
+					"justifyContent": "center",
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "30px",
+					"color": "#7a7591"
+				},
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "DASHBOARD",
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": ""
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "Qmyx8dbaIC",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		}
+	}
+}

@@ -1,0 +1,741 @@
+{
+	"metadata": {
+		"v": "1.0",
+		"datasources": [],
+		"styles": []
+	},
+	"components": {
+		"ROOT": {
+			"type": {
+				"resolvedName": "Container"
+			},
+			"isCanvas": true,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"className": "bg-white h-full w-full px-6",
+				"style": {
+					"display": "flex",
+					"backgroundColor": "#f1f1f1",
+					"gap": "20px",
+					"flexDirection": "column"
+				},
+				"airyMode": true
+			},
+			"displayName": "Webform",
+			"custom": {},
+			"parent": "",
+			"hidden": false,
+			"nodes": [
+				"QKwIZ568Ek",
+				"5P_CYxXhzS"
+			],
+			"linkedNodes": {}
+		},
+		"I9d23SZz1g": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"paddingRight": "0px",
+					"width": "fit-content",
+					"backgroundColor": "#ffffffff",
+					"height": "fit-content",
+					"display": "flex",
+					"flexDirection": "column",
+					"alignItems": "start",
+					"justifyContent": "center",
+					"borderRadius": "12px",
+					"minHeight": "fit-content",
+					"marginTop": "0px",
+					"marginBottom": "0px",
+					"marginRight": "0px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "QKwIZ568Ek",
+			"hidden": false,
+			"nodes": [
+				"rjXSg0AmHW",
+				"OOHCAdHy3_",
+				"_fkIclq0_2",
+				"F8BF2B8rq7"
+			],
+			"linkedNodes": {}
+		},
+		"OOHCAdHy3_": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "g1DaMJWXPua3m3hY45n7Jb",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "sa66u0XlEH",
+						"parent": "webform-loader",
+						"target": "menuItemDashboard"
+					}
+				],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"alignItems": "center",
+					"gap": "10px",
+					"paddingRight": "12px",
+					"marginTop": "0px",
+					"marginBottom": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"pointer_cursor"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "I9d23SZz1g",
+			"hidden": false,
+			"nodes": [
+				"Y4A_xkQVaD"
+			],
+			"linkedNodes": {}
+		},
+		"Y4A_xkQVaD": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "Dashboard",
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "14px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "OOHCAdHy3_",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"_fkIclq0_2": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "eyd864peuhLCbXj5UhboB5",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "sa66u0XlEH",
+						"parent": "webform-loader",
+						"target": "menuItemUsers"
+					}
+				],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"alignItems": "center",
+					"gap": "10px",
+					"marginTop": "0px",
+					"marginBottom": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"pointer_cursor"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "I9d23SZz1g",
+			"hidden": false,
+			"nodes": [
+				"8fB-rVudVs"
+			],
+			"linkedNodes": {}
+		},
+		"8fB-rVudVs": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "Users",
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "14px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "_fkIclq0_2",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"F8BF2B8rq7": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "qG5vjpmigLse2JFCkJyZEz",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "sa66u0XlEH",
+						"parent": "webform-loader",
+						"target": "menuItemHolidays"
+					}
+				],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"alignItems": "center",
+					"gap": "10px",
+					"marginTop": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"pointer_cursor"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "I9d23SZz1g",
+			"hidden": false,
+			"nodes": [
+				"3vuE8nISvV"
+			],
+			"linkedNodes": {}
+		},
+		"3vuE8nISvV": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "Holidays",
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"fontSize": "14px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "F8BF2B8rq7",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"rjXSg0AmHW": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"display": "flex",
+					"flexDirection": "row",
+					"justifyContent": "flex-start",
+					"alignItems": "center",
+					"gap": "10px",
+					"marginBottom": "0px",
+					"marginLeft": "0px",
+					"marginRight": "0px",
+					"width": "150px"
+				},
+				"classNames": [
+					"default_cursor"
+				]
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "I9d23SZz1g",
+			"hidden": false,
+			"nodes": [
+				"X2sDFddB73",
+				"IK0XVVguyz"
+			],
+			"linkedNodes": {}
+		},
+		"X2sDFddB73": {
+			"type": {
+				"resolvedName": "Icon"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"icon": "fa-rocket",
+				"style": {
+					"marginRight": "0px",
+					"marginTop": "0px",
+					"marginBottom": "0px"
+				}
+			},
+			"displayName": "Icon",
+			"custom": {},
+			"parent": "rjXSg0AmHW",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"IK0XVVguyz": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "MENU",
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {
+					"fontFamily": "Roboto",
+					"fontWeight": "300",
+					"marginLeft": "0px",
+					"marginBottom": "0px",
+					"marginTop": "0px"
+				}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "rjXSg0AmHW",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"sa66u0XlEH": {
+			"type": {
+				"resolvedName": "WebformLoader"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [],
+				"style": {
+					"height": "fit-content",
+					"minHeight": "fit-content",
+					"paddingLeft": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingTop": "0px",
+					"maxHeight": "fit-content",
+					"borderRadius": "12px"
+				},
+				"webform": "menuItemDashboard"
+			},
+			"displayName": "Webform Loader",
+			"custom": {},
+			"parent": "QKwIZ568Ek",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"QKwIZ568Ek": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"height": "180px",
+					"width": "1000px",
+					"display": "flex",
+					"paddingTop": "0px",
+					"paddingRight": "0px",
+					"paddingBottom": "0px",
+					"paddingLeft": "0px",
+					"gap": "20px",
+					"minHeight": "180px",
+					"alignItems": "center",
+					"minWidth": "1000px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"I9d23SZz1g",
+				"sa66u0XlEH"
+			],
+			"linkedNodes": {}
+		},
+		"5P_CYxXhzS": {
+			"type": {
+				"resolvedName": "StyleBox"
+			},
+			"isCanvas": true,
+			"props": {
+				"events": [],
+				"style": {
+					"display": "flex",
+					"flexDirection": "column",
+					"gap": "12px",
+					"width": "1000px",
+					"minWidth": "1000px"
+				}
+			},
+			"displayName": "Stylebox",
+			"custom": {},
+			"parent": "ROOT",
+			"hidden": false,
+			"nodes": [
+				"Rg-q8DpRdE",
+				"VuUhSCoM0p"
+			],
+			"linkedNodes": {}
+		},
+		"Rg-q8DpRdE": {
+			"type": {
+				"resolvedName": "Text"
+			},
+			"isCanvas": false,
+			"props": {
+				"events": [
+					{
+						"type": "navigation",
+						"id": "ge7nds1Mzv8s3rpXwywrsa",
+						"events": [
+							"onclick"
+						],
+						"externalLink": false,
+						"loader": "",
+						"parent": "",
+						"target": "demoCSSMenu1"
+					}
+				],
+				"doc": [
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"text": "HOW DO I CREATE A SIMPLE MENU",
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": ""
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "1. "
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Select the menu item on which you want to define an event."
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "2. "
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Select the event from the "
+							},
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Contextual panel"
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": ". "
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Here, in the "
+							},
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "On Click event"
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": ", we have selected "
+							},
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Add Navigation Event"
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "."
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "3."
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": " In the resulting action, you can then select the "
+							},
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "destination page"
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "."
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "4."
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": " You can then define how to open this page : in a new tab, in the current tab, in a webform loader, or just update the webform loader the page is displayed in."
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": ""
+							}
+						]
+					},
+					{
+						"type": "paragraph",
+						"children": [
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "In the example above, we have added a "
+							},
+							{
+								"bold": true,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": "Webform loader"
+							},
+							{
+								"bold": false,
+								"italic": false,
+								"underlined": false,
+								"strikethrough": false,
+								"text": " that we update when clicking on menu items:"
+							}
+						]
+					}
+				],
+				"datasource": "",
+				"style": {}
+			},
+			"displayName": "Text",
+			"custom": {},
+			"parent": "5P_CYxXhzS",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		},
+		"VuUhSCoM0p": {
+			"type": {
+				"resolvedName": "Image"
+			},
+			"isCanvas": false,
+			"props": {
+				"classNames": [],
+				"events": [],
+				"style": {
+					"height": "auto",
+					"width": "800px"
+				},
+				"imgSrc": "/$shared/visuals/content1_xAXupoyKUdQMQTUziesPhR.png"
+			},
+			"displayName": "Image",
+			"custom": {},
+			"parent": "5P_CYxXhzS",
+			"hidden": false,
+			"nodes": [],
+			"linkedNodes": {}
+		}
+	}
+}
