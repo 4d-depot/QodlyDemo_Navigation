@@ -509,7 +509,7 @@
 					"enableFlex": false,
 					"flexProps": {
 						"nbOfRows": 1,
-						"nbOfColumns": 3
+						"nbOfColumns": 2
 					}
 				},
 				"currentElement": ""

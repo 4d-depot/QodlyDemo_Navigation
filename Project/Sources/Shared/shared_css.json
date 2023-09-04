@@ -5,6 +5,12 @@
 			"content": "self {\ncursor: pointer;\n}",
 			"parentId": null,
 			"id": "veKS4I_RDWEtz0wYAdXZZ"
+		},
+		{
+			"name": "default_cursor",
+			"content": "self {\ncursor: default;\n}",
+			"parentId": null,
+			"id": "WYtLkHqXd1OmbWlu2RAyA"
 		}
 	]
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="2">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="3">
 	<com.4d>
 		<web>
 			<standalone_server>
@@ -7,5 +7,8 @@
 				<qodlystudio enabled="true"/>
 			</standalone_server>
 		</web>
+		<compiler>
+			<options compilation_path="3"/>
+		</compiler>
 	</com.4d>
 </preferences>
