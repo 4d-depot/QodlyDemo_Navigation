@@ -7,3 +7,10 @@ exposed Function getManifestObject() : Object
 	$manifestFile:=File:C1566("/PACKAGE/Project/Sources/Shared/manifest.json")
 	$manifestObject:=JSON Parse:C1218($manifestFile.getText())
 	return $manifestObject
+	
+	
+exposed Function returnValue($input : Variant) : Variant
+	var $output : Variant
+	
+	$output:=$input
+	return $output

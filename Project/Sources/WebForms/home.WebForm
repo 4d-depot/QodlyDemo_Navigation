@@ -10,11 +10,19 @@
 				"initialValue": {}
 			},
 			{
-				"id": "selectedVisual",
+				"id": "visuals",
 				"type": "scalar",
 				"namespace": "",
+				"dataType": "array",
+				"initialValue": []
+			},
+			{
+				"id": "selectedVisual",
+				"type": "scalar",
+				"from": "visuals",
+				"namespace": "",
 				"dataType": "object",
-				"initialValue": {}
+				"initialValue": "first"
 			}
 		],
 		"styles": [
@@ -70,6 +78,28 @@
 						"params": [],
 						"returns": {
 							"datasource": "manifest"
+						}
+					},
+					{
+						"type": "method",
+						"dataclass": "DataStore",
+						"events": [
+							"onload"
+						],
+						"id": "qUvGJ5uChjLZTWEexZrkDr",
+						"method": "ds.returnValue",
+						"params": [
+							{
+								"name": "input",
+								"type": "Variant",
+								"datasource": "manifest.visuals",
+								"id": "dvN7WH8dvVVWDHwsFoJz7g"
+							}
+						],
+						"returns": {
+							"name": "$0",
+							"type": "Variable",
+							"datasource": "visuals"
 						}
 					}
 				],
@@ -495,13 +525,28 @@
 				"orientation": "horizontal",
 				"iterable": true,
 				"classNames": [],
-				"events": [],
+				"events": [
+					{
+						"type": "simple-action",
+						"id": "ifKJdNK3D7KsiuyBdJ6UkK",
+						"events": [
+							"onselect"
+						],
+						"action": "copy",
+						"datasource": {
+							"name": "$This",
+							"from": "",
+							"target": "selectedVisual2",
+							"targetNamespace": ""
+						}
+					}
+				],
 				"style": {
 					"width": "100%",
 					"borderWidth": "0px",
 					"height": "220px"
 				},
-				"datasource": "manifest.visuals",
+				"datasource": "visuals",
 				"gridProps": {
 					"styleboxWidth": 280,
 					"styleboxHeight": 215,
@@ -512,7 +557,7 @@
 						"nbOfColumns": 2
 					}
 				},
-				"currentElement": ""
+				"currentElement": "selectedVisual"
 			},
 			"displayName": "Matrix",
 			"custom": {},
